@@ -44,17 +44,17 @@ let numero3 = prompt("Por favor digite un numero del 1 al 7 (Cualquiera)");
 if (numero3 == 1) {
 
     alert("HOY ES LUNES !!!");
-} else if (numer3 == 2) {
+} else if (numero3 == 2) {
     alert("HOY ES MARTES !!!")
-} else if (numer3 == 2) {
+} else if (numero3 == 2) {
     alert("HOY ES MIERCOLES !!!")
-} else if (numer3 == 2) {
+} else if (numero3 == 2) {
     alert("HOY ES JUEVES !!!")
-} else if (numer3 == 2) {
+} else if (numero3 == 2) {
     alert("HOY ES VIERNES !!!")
-} else if (numer3 == 2) {
+} else if (numero3 == 2) {
     alert("HOY ES SABADO !!!")
-} else if (numer3 == 2) {
+} else if (numero3 == 2) {
     alert("HOY ES DOMINGO !!!")
 } else {
     alert("Por favor digite un un numero dentro de los parametros indicados")
