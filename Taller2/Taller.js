@@ -24,12 +24,13 @@ alert("Siguiente punto del taller");
 ⦁	Pide al usuario dos números y determina cual es el número mayor y cual es el menor.*/
 let numero1 = prompt("Digite un numero");
 let numero2 = prompt("Digite un numero");
+
 if (numero1 > numero2) {
-    console.log("El numero mayor es: " + numero1);
-    console.log("El numero menor es: " + numero2);
+    alert("El numero mayor es: " + numero1);
+    alert("El numero menor es: " + numero2);
 } else {
-    console.log("El numero mayor es: " + numero2);
-    console.log("El numero menor es: " + numero1);
+    alert("El numero mayor es: " + numero2);
+    alert("El numero menor es: " + numero1);
 }
 
 alert("Siguiente punto del taller");
