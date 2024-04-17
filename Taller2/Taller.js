@@ -6,6 +6,7 @@ Aplicar los fundamentos del lenguaje Javascript realizando los siguientes ejerci
 /*Ejercicios Condicionales.
 
 ⦁	Pide al usuario un número y determina si es par o impar y si es positivo o negativo.*/
+
 let numero = prompt("Digite un numero");
 if (numero % 2 == 0) {
     alert("El numero es par");
@@ -106,14 +107,14 @@ alert("Siguiente punto del taller");
 * entre 4,5 – 5 = Muy bueno.*/
 
 let nota1 = prompt ("Por favor ingresa la nota 1");
-let nota2 = prompt ("Por favor ingresa la nota 1");
-let nota3 = prompt ("Por favor ingresa la nota 1");
+let nota2 = prompt ("Por favor ingresa la nota 2");
+let nota3 = prompt ("Por favor ingresa la nota 3");
 
-let SumNota = parseInt(nota1) + parseInt(nota1) + parseInt(nota1);
+let SumNota = parseInt(nota1) + parseInt(nota2) + parseInt(nota3);
 
 let prom = SumNota / 3;
 
-alert ("Su promedio actual es de: " + SumNotas);
+alert ("Su promedio actual es de: " + prom);
 
 if (prom < 2.0 ){
 
@@ -275,5 +276,4 @@ if (edad3 <=10 || edad3 == 0) {
         alert(`El valor total a pagar es de: $${(dias * 15000) + ((dias * 15000) * 0.2)}`);
     }
 }
-
 alert("FIN DEL TALLER");
