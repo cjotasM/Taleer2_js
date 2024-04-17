@@ -28,10 +28,7 @@ let numero2 = prompt("Digite un numero");
 if (numero1 > numero2) {
     alert("El numero mayor es: " + numero1);
     alert("El numero menor es: " + numero2);
-} else {
-    alert("El numero mayor es: " + numero2);
-    alert("El numero menor es: " + numero1);
-}
+} 
 
 alert("Siguiente punto del taller");
 
