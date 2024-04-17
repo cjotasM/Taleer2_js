@@ -42,19 +42,18 @@ alert("Siguiente punto del taller");
 let numero3 = prompt("Por favor digite un numero del 1 al 7 (Cualquiera)");
 
 if (numero3 == 1) {
-
     alert("HOY ES LUNES !!!");
 } else if (numero3 == 2) {
     alert("HOY ES MARTES !!!")
-} else if (numero3 == 2) {
+} else if (numero3 == 3) {
     alert("HOY ES MIERCOLES !!!")
-} else if (numero3 == 2) {
+} else if (numero3 == 4) {
     alert("HOY ES JUEVES !!!")
-} else if (numero3 == 2) {
+} else if (numero3 == 5) {
     alert("HOY ES VIERNES !!!")
-} else if (numero3 == 2) {
+} else if (numero3 == 6) {
     alert("HOY ES SABADO !!!")
-} else if (numero3 == 2) {
+} else if (numero3 == 7) {
     alert("HOY ES DOMINGO !!!")
 } else {
     alert("Por favor digite un un numero dentro de los parametros indicados")
